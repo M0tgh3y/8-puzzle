@@ -1,0 +1,3 @@
+Q:/puzzle8/cmake-build-debug/CMakeFiles/puzzle8.dir
+Q:/puzzle8/cmake-build-debug/CMakeFiles/edit_cache.dir
+Q:/puzzle8/cmake-build-debug/CMakeFiles/rebuild_cache.dir
