@@ -1,4 +1,4 @@
-# Sliding Puzzle Heuristic Database Generator
+# 8 Puzzle Heuristic Database Generator
 
 ## معرفی پروژه
 
