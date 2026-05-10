@@ -148,7 +148,7 @@ struct State {
 | فیلد | توضیح |
 |---|---|
 | `board` | وضعیت فعلی پازل |
-| `stars` | Tileهای ستاره‌ای |
+| `stars` | عناصر ستاره‌ای |
 | `stateStr` | نمایش متنی یکتا |
 | `dist` | فاصله تا Goal |
 
@@ -276,19 +276,6 @@ This state is NOT reachable from the goal state.
 
 ---
 
-# کاربردهای پروژه
-
-این پروژه می‌تواند به‌عنوان پایه‌ای برای موارد زیر استفاده شود:
-
-- پیاده‌سازی الگوریتم A*
-- ساخت Pattern Database واقعی
-- پروژه‌های دانشگاهی هوش مصنوعی
-- تحلیل فضای حالت
-- مقایسه Heuristicها
-- حل خودکار پازل
-
----
-
 # توسعه‌های پیشنهادی
 
 - پشتیبانی از 15-Puzzle
@@ -322,4 +309,4 @@ This state is NOT reachable from the goal state.
 
 # نویسنده
 
-Developed with ❤️ using C++ and Artificial Intelligence concepts.
+Motahare Gheysari + my best friend chatGPT
