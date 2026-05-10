@@ -15,7 +15,6 @@
 
 استفاده کرد.
 
----
 
 # ویژگی‌های پروژه
 
@@ -31,7 +30,6 @@
   - `unordered_set`
   - `queue`
 
----
 
 # ایده اصلی پروژه
 
@@ -45,7 +43,6 @@
 
 این روش پایه‌ی اصلی **Pattern Database Heuristics** در هوش مصنوعی است.
 
----
 
 # نحوه عملکرد برنامه
 
@@ -63,7 +60,6 @@
 
 عدد `0` نشان‌دهنده خانه خالی (Blank Tile) است.
 
----
 
 ## 2. تعریف Star Tiles
 
@@ -88,7 +84,6 @@ Enter star values:
 
 این تکنیک برای کاهش فضای حالت و ساخت Pattern Database استفاده می‌شود.
 
----
 
 ## 3. تولید فضای حالت با BFS
 
@@ -104,7 +99,6 @@ Enter star values:
   - فاصله آن ثبت می‌شود
   - وارد صف BFS می‌شود
 
----
 
 # الگوریتم مورد استفاده
 
@@ -124,7 +118,6 @@ Enter star values:
 181440
 ```
 
----
 
 # ساختار State
 
@@ -152,7 +145,6 @@ struct State {
 | `stateStr` | نمایش متنی یکتا |
 | `dist` | فاصله تا Goal |
 
----
 
 # فایل Heuristic Database
 
@@ -175,23 +167,6 @@ state_string distance
 1,2,3,4,5,0,7,8,6, 1
 ```
 
----
-
-# نحوه کامپایل و اجرا
-
-## کامپایل
-
-```bash
-g++ main.cpp -o puzzle
-```
-
-## اجرا
-
-```bash
-./puzzle
-```
-
----
 
 # نمونه اجرای برنامه
 
@@ -225,7 +200,6 @@ Total states = 181440
 Saved in heuristic.txt
 ```
 
----
 
 # تست یک State
 
@@ -249,7 +223,6 @@ Exact Distance To Goal = 12
 This state is NOT reachable from the goal state.
 ```
 
----
 
 # ساختمان داده‌های استفاده‌شده
 
@@ -260,7 +233,6 @@ This state is NOT reachable from the goal state.
 | `unordered_map` | ذخیره Heuristic |
 | `vector<vector<int>>` | نمایش صفحه پازل |
 
----
 
 # مفاهیم هوش مصنوعی استفاده‌شده
 
@@ -274,7 +246,6 @@ This state is NOT reachable from the goal state.
 - Graph Traversal
 - Heuristic Search
 
----
 
 # توسعه‌های پیشنهادی
 
@@ -286,7 +257,6 @@ This state is NOT reachable from the goal state.
 - Parallel BFS
 - Memory Optimization
 
----
 
 # ساختار پروژه
 
@@ -297,7 +267,6 @@ This state is NOT reachable from the goal state.
 └── README.md
 ```
 
----
 
 # نتیجه‌گیری
 
